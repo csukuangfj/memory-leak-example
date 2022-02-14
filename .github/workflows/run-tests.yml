@@ -77,5 +77,6 @@ jobs:
           mkdir build
           cd build
           cmake ..
+          make -j
           ls -lh
           ./example
